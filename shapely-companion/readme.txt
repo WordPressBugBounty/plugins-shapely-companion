@@ -3,7 +3,7 @@ Contributors: colorlibplugins, silkalns
 Tags: woocommerce, widgets, demo, companion, one page
 Requires at least: 6.4
 Tested up to: 6.8
-Stable tag: 1.2.9
+Stable tag: 1.2.10
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -51,6 +51,16 @@ Currently it works only with Shapely theme.
 You can still use Shapely theme without this plugin but you won't be able to import demo content and use theme specific widgets that you see on front page of theme demo.
 
 == Changelog ==
+
+= 1.2.10 =
+* Fixed demo content import functionality
+* Added proper error handling for failed imports
+* Fixed contact form widget PHP warnings
+* Added null checks for non-existent contact forms
+* Improved AJAX response handling in admin.js
+* Enhanced demo content with better sample posts
+* Fixed frontpage template assignment during import
+* Added detailed error logging for debugging
 
 = 1.2.9 =
 * Fixed compatibility with PHP 8.4

@@ -3,7 +3,7 @@
  * Plugin Name:       Shapely Companion
  * Plugin URI:        https://colorlib.com/wp/themes/shapely/
  * Description:       Shapely Companion is a companion plugin for Shapely theme.
- * Version:           1.2.9
+ * Version:           1.2.10
  * Author:            Colorlib
  * Author URI:        https://colorlib.com
  * License:           GPL-2.0+
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'SHAPELY_COMPANION', '1.2.9' );
+define( 'SHAPELY_COMPANION', '1.2.10' );
 
 /**
  * Initialize widgets and theme compatibility check.

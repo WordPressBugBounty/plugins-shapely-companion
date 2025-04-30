@@ -10,18 +10,16 @@ jQuery( document ).ready(function() {// jscs:ignore validateLineBreaks
             type: 'POST',
             data: ajaxData,
             url: shapelyCompanion.ajaxurl,
+            dataType: 'json',
             success: function( data ) {
-                if ( 'succes' === data ) {
+                if ( data && (data.success === true || (data.data && data.data.status === true) || data === 'succes') ) {
                     currentButton.removeClass( 'disabled' );
                     currentButton.next( '.spinner' ).removeClass( 'is-active' );
                     currentButton.parent().parent().find( '.updated-message' ).show();
                     location.reload();
                 }
-
             }
-
         });
-
     });
 
 });
